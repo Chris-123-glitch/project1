@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/reg.css" />
+
+    <script src="../js/register.js"></script>
+
+    <!-- fontawesome cdn link -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container" class="background">
+      <div>
+        <i class="fa fa-arrow-left" aria-hidden="true" style="color: white"></i>
+      </div>
+      <div id="holder">
+        <div>create an account</div>
+        <div>
+          <form id="form" action="">
+            <div>
+              <i class="fa fa-user" aria-hidden="true" style="color: grey"></i>
+              <input
+                type="text"
+                name="username"
+                class="username"
+                placeholder="Username"
+              />
+            </div>
+            <div>
+              <i class="fa fa-phone" aria-hidden="true" style="color: grey"></i>
+              <input
+                type="number"
+                name="number"
+                class="number"
+                placeholder="Number"
+              />
+            </div>
+            <div>
+              <i class="fa fa-inbox" aria-hidden="true" style="color: grey"></i>
+              <input
+                type="email"
+                name="email"
+                class="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="agree">
+              <input
+                type="checkbox"
+                name="agree"
+                class="agree_input"
+                placeholder="Agree"
+              />
+              <p>Agree to Our Terms</p>
+            </div>
+
+            <input type="submit" class="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

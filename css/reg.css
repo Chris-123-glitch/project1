@@ -1,0 +1,47 @@
+body{
+    background: rgb(71, 53, 53) ;
+}
+
+#container {
+    width: 100%;
+  }
+  
+  #holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  #form {
+    position: relative;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #form > div > i {
+    position: relative;
+    left: 20px;
+  }
+  
+  #form > div > input {
+  }
+  
+  input {
+    padding: 5px;
+    padding-left: 20px;
+  }
+  
+  .agree {
+    display: flex;
+  }
+  
+  .submit {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+  }
